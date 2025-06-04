@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="Style.css" />
+        <meta charset="UTF-8" />
+        <title>Title</title>
+    </head>
+    <body>
+        <p id="outputText"></p>
+        
+        <script>
+            
+           var text1="4";
+           var text2="5";
+           var num1=stringtonumber(text1);
+           var num2=stringtonumber(text2);
+           //check if its not a number
+           //if num1 OR num2 are not numbers do
+           if(isNaN(num1)|| isNaN(num2)){
+                document.getElementById("outputText").innerHTML="You have not enterd a valid number try again";
+            }else{
+                document.getElementById("outputText").innerHTML= num1 + num2;
+            }
+           document.getElementById("outputText").innerHTML= num1 + num2;
+           //convert string to numbers
+           function stringtonumber(text){
+                return parseInt(text);
+           }
+
+            
+
+           
+
+            
+          
+        
+        </script>
+    
+    </body>
+</html>
