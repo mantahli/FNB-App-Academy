@@ -1,4 +1,6 @@
  Welcome
+
+ 
 This repository documents my journey and learnings as a participant in the FNB App Academy, a graduate program by First National Bank South Africa focused on developing future-ready software professionals.
 
 Welcome to my FNB App Academy repository!
